@@ -1,5 +1,5 @@
 import streamlit as st
-# import mysql.connector
+import mysql.connector
 import pandas as pd
 
 # ==========================
@@ -118,4 +118,5 @@ elif choice == "Delete Student":
         if st.button("Delete"):
             delete_student(selected_name)
             st.success(f"🗑️ Deleted record for '{selected_name}' successfully!")
+
 
