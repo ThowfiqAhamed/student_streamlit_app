@@ -118,5 +118,3 @@ elif choice == "Delete Student":
         if st.button("Delete"):
             delete_student(selected_name)
             st.success(f"🗑️ Deleted record for '{selected_name}' successfully!")
-
-
